@@ -1,7 +1,6 @@
 'use client'
 
 import * as React from "react";
-import Link from "next/link";
 import { UserButton } from "@clerk/nextjs";
 import { OrganizationSwitcher } from "@clerk/clerk-react";
 

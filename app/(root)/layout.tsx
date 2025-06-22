@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
+import ToasterProvider from "../components/ToasterProvider";
+
 import {
   ClerkProvider,
   SignInButton,
@@ -46,6 +48,7 @@ export default function RootLayout({
            
               {children}
             </SignedIn>
+            <ToasterProvider />
         </body>
       </html>
     </ClerkProvider>
